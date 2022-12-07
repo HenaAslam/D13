@@ -38,7 +38,7 @@ The user should be able to see the list of tasks, add new ones, delete existing 
       width:500px;
       
     }
-    input{
+    input[type="button"]{
       width:500px;
       
     }
@@ -100,7 +100,7 @@ The user should be able to see the list of tasks, add new ones, delete existing 
           newItem.innerText=document.getElementById('newTask').value;
           theList.appendChild(newItem);
 
-          
+          document.getElementById('newTask').value=''
 
 
           }
